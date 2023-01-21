@@ -24,3 +24,4 @@ mydata = {'disable_web_page_preview': 1, 'chat_id': chat_id, 'text': message, 'p
 
 request = requests.post(URL + token + '/sendMessage', data=mydata, timeout=2)
 print('TELEGRAM', request.status_code, request.reason, chat_id)
+
